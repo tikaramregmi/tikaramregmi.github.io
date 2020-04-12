@@ -15,12 +15,14 @@
 
 html {
   font-size: 100%;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.84);
+  line-height: 30px;
 }
 
 .container {
@@ -244,6 +246,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  text-align: justify;
 }
 
 .posts > .post:last-child {
